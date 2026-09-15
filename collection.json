@@ -1,0 +1,9 @@
+{
+  "name": "Valirian",
+  "description": "Modelo de rótulos Valirian, utilizado para servir também como modelo de utilização do Card Games e assim os próximos usuários terem parametros de como criar.",
+  "game": "",
+  "based_on": null,
+  "created_at": 1788356657.462545,
+  "updated_at": 1789404051.5281692,
+  "identifier_field": "rotulo"
+}

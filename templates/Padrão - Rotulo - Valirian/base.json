@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "name": "Padrão - Rotulo - Valirian",
+    "inherits": null
+  },
+  "card": {
+    "width_mm": 63,
+    "height_mm": 88,
+    "dpi": 300
+  },
+  "gradients": {
+    "white": {
+      "id": "white",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#F5F5DC"
+        },
+        {
+          "offset": "100%",
+          "color": "#E8E6D0"
+        }
+      ]
+    },
+    "blue": {
+      "id": "blue",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#B0C4DE"
+        },
+        {
+          "offset": "100%",
+          "color": "#7B9EB0"
+        }
+      ]
+    },
+    "black": {
+      "id": "black",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#3A3A3A"
+        },
+        {
+          "offset": "100%",
+          "color": "#1A1A1A"
+        }
+      ]
+    },
+    "red": {
+      "id": "red",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#E34234"
+        },
+        {
+          "offset": "100%",
+          "color": "#B22222"
+        }
+      ]
+    },
+    "green": {
+      "id": "green",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#6B8E23"
+        },
+        {
+          "offset": "100%",
+          "color": "#4A7023"
+        }
+      ]
+    },
+    "gold": {
+      "id": "gold",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#D4AF37"
+        },
+        {
+          "offset": "100%",
+          "color": "#B8860B"
+        }
+      ]
+    },
+    "colorless": {
+      "id": "colorless",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#D0D0D0"
+        },
+        {
+          "offset": "100%",
+          "color": "#A9A9A9"
+        }
+      ]
+    },
+    "artifact": {
+      "id": "artifact",
+      "stops": [
+        {
+          "offset": "0%",
+          "color": "#C8C8C8"
+        },
+        {
+          "offset": "100%",
+          "color": "#909090"
+        }
+      ]
+    }
+  },
+  "layers": [
+    {
+      "id": "card_name",
+      "type": "text",
+      "label": "Rotulo",
+      "field": "rotulo",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 13.35,
+      "y_mm": 3.51,
+      "width_mm": 37.66,
+      "height_mm": 3.83,
+      "z_index": 5,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 10,
+        "font_weight": "bold",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "background",
+      "type": "background",
+      "label": "Fundo",
+      "field": "",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 0,
+      "y_mm": -1,
+      "width_mm": 63,
+      "height_mm": 89.6,
+      "z_index": -2,
+      "visible": true,
+      "multiline": false,
+      "locked": true,
+      "fit": "cover",
+      "source_image": "Background.png",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "left",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "image_4_5e5d",
+      "type": "image",
+      "label": "Familia",
+      "field": "familia",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 53.99,
+      "y_mm": 0,
+      "width_mm": 8,
+      "height_mm": 11.83,
+      "z_index": 0,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "left",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "background_5_e6m0",
+      "type": "background",
+      "label": "Mascara",
+      "field": "",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 0,
+      "y_mm": -1,
+      "width_mm": 63,
+      "height_mm": 89.6,
+      "z_index": 2,
+      "visible": true,
+      "multiline": false,
+      "locked": true,
+      "fit": "cover",
+      "source_image": "Mascara.png",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "left",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_5_s6t2",
+      "type": "text",
+      "label": "Descricao",
+      "field": "descricao",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 4.17,
+      "y_mm": 49,
+      "width_mm": 55.33,
+      "height_mm": 16.33,
+      "z_index": 4,
+      "visible": true,
+      "multiline": true,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 7,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_6_s7v2",
+      "type": "text",
+      "label": "Cervejaria",
+      "field": "cervejaria",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 15,
+      "y_mm": 43.67,
+      "width_mm": 33,
+      "height_mm": 3.5,
+      "z_index": 5,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Rye-Regular",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 2,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_7_s8tu",
+      "type": "text",
+      "label": "Estilo",
+      "field": "estilo",
+      "static_text": "Estilo",
+      "condition": "",
+      "x_mm": 17,
+      "y_mm": 9.16,
+      "width_mm": 29.67,
+      "height_mm": 2.5,
+      "z_index": 6,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 7.5,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#b0b0b0",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 1,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_8_s9k7",
+      "type": "text",
+      "label": "Lote",
+      "field": "lote",
+      "static_text": "1234",
+      "condition": "",
+      "x_mm": 2.17,
+      "y_mm": 77.17,
+      "width_mm": 8.33,
+      "height_mm": 6,
+      "z_index": 8,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 11,
+        "font_weight": "bold",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_9_w8r4",
+      "type": "text",
+      "label": "ABV",
+      "field": "abv",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 29,
+      "y_mm": 68.5,
+      "width_mm": 11,
+      "height_mm": 4,
+      "z_index": 9,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_10_w910",
+      "type": "text",
+      "label": "EBC",
+      "field": "ebc",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 47.83,
+      "y_mm": 68.5,
+      "width_mm": 11,
+      "height_mm": 4,
+      "z_index": 10,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_11_w9cy",
+      "type": "text",
+      "label": "IBU",
+      "field": "ibu",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 8.49,
+      "y_mm": 68.5,
+      "width_mm": 11,
+      "height_mm": 4,
+      "z_index": 11,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "middle",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_12_yi4w",
+      "type": "text",
+      "label": "Harmonizacao_1",
+      "field": "harmon1",
+      "static_text": "Harmonizacao_1",
+      "condition": "",
+      "x_mm": 37.2,
+      "y_mm": 75.9,
+      "width_mm": 23.5,
+      "height_mm": 3.17,
+      "z_index": 12,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 7,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_13_yign",
+      "type": "text",
+      "label": "Harmonizacao_3",
+      "field": "harmon3",
+      "static_text": "Harmonizacao_3",
+      "condition": "",
+      "x_mm": 37.2,
+      "y_mm": 82.6,
+      "width_mm": 23.5,
+      "height_mm": 3.17,
+      "z_index": 13,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 7,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "text_14_yis7",
+      "type": "text",
+      "label": "Harmonizacao_2",
+      "field": "harmon2",
+      "static_text": "Harmonizacao_2",
+      "condition": "",
+      "x_mm": 37.2,
+      "y_mm": 79.2,
+      "width_mm": 23.5,
+      "height_mm": 3.17,
+      "z_index": 14,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 7,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "center",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    },
+    {
+      "id": "image_15_52lq",
+      "type": "image",
+      "label": "Ilustracao",
+      "field": "ilustracao",
+      "static_text": "",
+      "condition": "",
+      "x_mm": 0.67,
+      "y_mm": 11.5,
+      "width_mm": 62,
+      "height_mm": 31.17,
+      "z_index": -1,
+      "visible": true,
+      "multiline": false,
+      "locked": false,
+      "fit": "cover",
+      "source_image": "",
+      "source_gradient": "",
+      "style": {
+        "font_family": "Beleren-Bold",
+        "font_size_pt": 9,
+        "font_weight": "normal",
+        "font_style": "normal",
+        "color": "#111111",
+        "align": "left",
+        "vertical_align": "top",
+        "letter_spacing_pt": 0,
+        "line_height_pt": 0
+      }
+    }
+  ],
+  "back_image": ""
+}
